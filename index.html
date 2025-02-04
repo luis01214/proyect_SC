@@ -11,3 +11,91 @@
     <div class="prueba"></div>
 </body>
 </html>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f2f5;
+        margin: 0;
+        padding: 0;
+    }
+    .header {
+        background-color: #4267B2;
+        color: white;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header .logo {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .header .search-bar input {
+        padding: 5px;
+        border: none;
+        border-radius: 5px;
+    }
+    .header .menu {
+        display: flex;
+        gap: 15px;
+    }
+    .sidebar {
+        width: 250px;
+        background-color: white;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        position: fixed;
+        top: 60px;
+        bottom: 0;
+    }
+    .content {
+        margin-left: 270px;
+        padding: 20px;
+    }
+    .post {
+        background-color: white;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+</style>
+
+<div class="header">
+    <div class="logo">Facebook</div>
+    <div class="search-bar">
+        <input type="text" placeholder="Search Facebook">
+    </div>
+    <div class="menu">
+        <div>Home</div>
+        <div>Friends</div>
+        <div>Messages</div>
+        <div>Notifications</div>
+        <div>Profile</div>
+    </div>
+</div>
+
+<div class="sidebar">
+    <div>Profile</div>
+    <div>News Feed</div>
+    <div>Messenger</div>
+    <div>Watch</div>
+    <div>Marketplace</div>
+    <div>Groups</div>
+    <div>Events</div>
+    <div>Memories</div>
+</div>
+
+<div class="content">
+    <div class="post">
+        <h2>Post Title</h2>
+        <p>This is a sample post content.</p>
+    </div>
+    <div class="post">
+        <h2>Post Title</h2>
+        <p>This is a sample post content.</p>
+    </div>
+    <div class="post">
+        <h2>Post Title</h2>
+        <p>This is a sample post content.</p>
+    </div>
+</div>
